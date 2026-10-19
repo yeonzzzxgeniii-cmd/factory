@@ -20,4 +20,22 @@ public class DeviceController : MonoBehaviour
             panelUI.ShowDevice(deviceData);
         }
     }
+
+    public void StartDevice()
+    {
+        deviceData.isRunning = true;//直接修改deviceData
+        if (panelUI != null)
+        {
+            panelUI.ShowDevice(deviceData);//调用ShowDevice,并传入deviceData
+        }
+    }
+
+    public void StopDevice()
+    {
+        deviceData.isRunning = false;
+        if (panelUI != null)
+        {
+            panelUI.ShowDevice(deviceData);
+        }
+    }
 }
