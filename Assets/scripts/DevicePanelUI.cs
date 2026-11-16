@@ -97,8 +97,24 @@ public class DevicePanelUI : MonoBehaviour {
 		deviceNameText.text = "设备名称:" + currentData.deviceName;
 		temperatureText.text = "温度:" + currentData.temperature.ToString("F2") + "℃";
 		speedText.text = "转速:" + currentData.speed.ToString("F0") + "rpm";
-		statusText.text = "状态:" + (currentData.isRunning ? "运行中" : "已停止");
-	}
+		if (currentData.isAlarm)
+		{
+			statusText.text = "状态：温度异常！请检查设备！";
+            statusText.color= Color.red;
+
+        }
+		else if(currentData.isRunning)
+		{
+			statusText.text="状态：运行中";
+			statusText.color= Color.green;
+            //条件 ? 条件为真时的值 : 条件为假时的值
+        }
+		else
+		{
+			statusText.text = "状态：已停止";
+			statusText.color= Color.black;
+        }
+    }
 
 	void UpdateButtons()
 	{

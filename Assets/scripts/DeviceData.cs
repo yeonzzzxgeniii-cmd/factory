@@ -14,4 +14,5 @@ public class DeviceData
             Temperature (数字框，默认25)
             Speed (数字框，默认0)
             Is Running (勾选框)*/
+    public bool isAlarm = false;
 }

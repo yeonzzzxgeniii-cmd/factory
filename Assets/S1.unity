@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 19418062}
   - component: {fileID: 19418066}
   - component: {fileID: 19418067}
+  - component: {fileID: 19418068}
   m_Layer: 0
   m_Name: Device_C
   m_TagString: Untagged
@@ -215,6 +216,7 @@ MonoBehaviour:
     temperature: 25
     speed: 0
     isRunning: 1
+    isAlarm: 0
   panelUI: {fileID: 625920634}
 --- !u!114 &19418067
 MonoBehaviour:
@@ -230,6 +232,19 @@ MonoBehaviour:
   deviceController: {fileID: 19418066}
   temperatureChangeSpeed: 2
   speedChangeSpeed: 100
+  alarmTemperature: 35
+--- !u!114 &19418068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 19418061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab00989c0cc87d4680077b9ab1c726a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceController: {fileID: 19418066}
 --- !u!1 &25292210
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,6 +256,7 @@ GameObject:
   - component: {fileID: 25292213}
   - component: {fileID: 25292212}
   - component: {fileID: 25292211}
+  - component: {fileID: 25292215}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -305,12 +321,23 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 25292210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -9.06}
+  m_LocalPosition: {x: 0.1, y: 1, z: -7.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &25292215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 25292210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bf13ff925c561f40bbb046016122fc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &26202145
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,7 +370,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -444, y: -153}
+  m_AnchoredPosition: {x: -209, y: -239}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &26202147
@@ -417,7 +444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -443.99994, y: -73.99989}
+  m_AnchoredPosition: {x: -210.99994, y: -159.99994}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &258900047
@@ -509,6 +536,7 @@ GameObject:
   - component: {fileID: 495866190}
   - component: {fileID: 495866194}
   - component: {fileID: 495866195}
+  - component: {fileID: 495866196}
   m_Layer: 0
   m_Name: Device_B
   m_TagString: Untagged
@@ -598,6 +626,7 @@ MonoBehaviour:
     temperature: 25
     speed: 0
     isRunning: 1
+    isAlarm: 0
   panelUI: {fileID: 625920634}
 --- !u!114 &495866195
 MonoBehaviour:
@@ -613,6 +642,19 @@ MonoBehaviour:
   deviceController: {fileID: 495866194}
   temperatureChangeSpeed: 2
   speedChangeSpeed: 100
+  alarmTemperature: 35
+--- !u!114 &495866196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 495866189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab00989c0cc87d4680077b9ab1c726a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceController: {fileID: 495866194}
 --- !u!1 &546628953
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,7 +687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -443.99994, y: -115.99988}
+  m_AnchoredPosition: {x: -210.99994, y: -201.99994}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &546628955
@@ -720,10 +762,10 @@ RectTransform:
   m_Father: {fileID: 1911385572}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 890, y: -585.5}
+  m_SizeDelta: {x: 1780, y: 1165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &625920632
 MonoBehaviour:
@@ -774,8 +816,8 @@ MonoBehaviour:
   speedText: {fileID: 26202147}
   statusText: {fileID: 2086969782}
   deviceInfoContent: {fileID: 462175129}
-  startButton: {fileID: 0}
-  stopButton: {fileID: 0}
+  startButton: {fileID: 1791042666}
+  stopButton: {fileID: 1949690140}
 --- !u!1 &1284752063
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,6 +917,7 @@ GameObject:
   - component: {fileID: 1457896416}
   - component: {fileID: 1457896420}
   - component: {fileID: 1457896421}
+  - component: {fileID: 1457896422}
   m_Layer: 0
   m_Name: Device_A
   m_TagString: Untagged
@@ -964,6 +1007,7 @@ MonoBehaviour:
     temperature: 25
     speed: 0
     isRunning: 1
+    isAlarm: 0
   panelUI: {fileID: 625920634}
 --- !u!114 &1457896421
 MonoBehaviour:
@@ -979,6 +1023,19 @@ MonoBehaviour:
   deviceController: {fileID: 1457896420}
   temperatureChangeSpeed: 2
   speedChangeSpeed: 100
+  alarmTemperature: 35
+--- !u!114 &1457896422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1457896415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab00989c0cc87d4680077b9ab1c726a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceController: {fileID: 1457896420}
 --- !u!1 &1464329306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,7 +1271,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -819.2, y: -46}
+  m_AnchoredPosition: {x: -518, y: -40.00002}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1791042666
@@ -1505,7 +1562,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -820.2, y: -97}
+  m_AnchoredPosition: {x: -518.99994, y: -91}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1949690140
@@ -1625,7 +1682,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -443.99994, y: -187.99988}
+  m_AnchoredPosition: {x: -210.99994, y: -273.99994}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2086969782

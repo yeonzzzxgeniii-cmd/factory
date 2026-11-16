@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{A22633C6-32F3-3120-23A5-CEF572948D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\devicepanelui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22633C6-32F3-3120-23A5-CEF572948D38}|Assembly-CSharp.csproj|C:\\Users\\Kay\\Desktop\\factory\\assets\\scripts\\devicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22633C6-32F3-3120-23A5-CEF572948D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\devicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A22633C6-32F3-3120-23A5-CEF572948D38}|Assembly-CSharp.csproj|c:\\users\\kay\\desktop\\factory\\assets\\scripts\\devicealarmeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22633C6-32F3-3120-23A5-CEF572948D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\devicealarmeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A22633C6-32F3-3120-23A5-CEF572948D38}|Assembly-CSharp.csproj|c:\\users\\kay\\desktop\\factory\\assets\\scripts\\devicesimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A22633C6-32F3-3120-23A5-CEF572948D38}|Assembly-CSharp.csproj|C:\\Users\\Kay\\Desktop\\factory\\assets\\scripts\\devicesimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A22633C6-32F3-3120-23A5-CEF572948D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\devicesimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A22633C6-32F3-3120-23A5-CEF572948D38}|Assembly-CSharp.csproj|C:\\Users\\Kay\\Desktop\\factory\\assets\\scripts\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A22633C6-32F3-3120-23A5-CEF572948D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22633C6-32F3-3120-23A5-CEF572948D38}|Assembly-CSharp.csproj|C:\\Users\\Kay\\Desktop\\factory\\assets\\scripts\\devicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22633C6-32F3-3120-23A5-CEF572948D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\devicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22633C6-32F3-3120-23A5-CEF572948D38}|Assembly-CSharp.csproj|C:\\Users\\Kay\\Desktop\\factory\\assets\\scripts\\clickdiagnostic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22633C6-32F3-3120-23A5-CEF572948D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\clickdiagnostic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -36,11 +44,36 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\DeviceSimulator.cs",
               "ToolTip": "C:\\Users\\Kay\\Desktop\\factory\\Assets\\scripts\\DeviceSimulator.cs",
               "RelativeToolTip": "Assets\\scripts\\DeviceSimulator.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvwcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwA4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-12T13:39:48.6Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeviceAlarmEffect.cs",
+              "DocumentMoniker": "C:\\Users\\Kay\\Desktop\\factory\\Assets\\scripts\\DeviceAlarmEffect.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\DeviceAlarmEffect.cs",
+              "ToolTip": "C:\\Users\\Kay\\Desktop\\factory\\Assets\\scripts\\DeviceAlarmEffect.cs",
+              "RelativeToolTip": "Assets\\scripts\\DeviceAlarmEffect.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwB0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T07:50:44.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClickDiagnostic.cs",
+              "DocumentMoniker": "C:\\Users\\Kay\\Desktop\\factory\\Assets\\scripts\\ClickDiagnostic.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ClickDiagnostic.cs",
+              "ToolTip": "C:\\Users\\Kay\\Desktop\\factory\\Assets\\scripts\\ClickDiagnostic.cs",
+              "RelativeToolTip": "Assets\\scripts\\ClickDiagnostic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvzIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T06:48:38.526Z"
             },
             {
               "$type": "Document",
@@ -50,23 +83,22 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\DevicePanelUI.cs",
               "ToolTip": "C:\\Users\\Kay\\Desktop\\factory\\Assets\\scripts\\DevicePanelUI.cs",
               "RelativeToolTip": "Assets\\scripts\\DevicePanelUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwHIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-12T13:08:44.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DeviceData.cs",
               "DocumentMoniker": "C:\\Users\\Kay\\Desktop\\factory\\Assets\\scripts\\DeviceData.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\DeviceData.cs",
               "ToolTip": "C:\\Users\\Kay\\Desktop\\factory\\Assets\\scripts\\DeviceData.cs",
               "RelativeToolTip": "Assets\\scripts\\DeviceData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T14:53:59.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-11T14:53:59.047Z"
             },
             {
               "$type": "Document",
@@ -76,7 +108,7 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\DeviceController.cs",
               "ToolTip": "C:\\Users\\Kay\\Desktop\\factory\\Assets\\scripts\\DeviceController.cs",
               "RelativeToolTip": "Assets\\scripts\\DeviceController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-11T14:46:16.945Z"
             }
