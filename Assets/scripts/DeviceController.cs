@@ -14,7 +14,7 @@ public class DeviceController : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log("当前点击设备：" + deviceData.deviceName);
+        //Debug.Log("当前点击设备：" + deviceData.deviceName);
         if (panelUI != null)
         {
             panelUI.ShowDevice(deviceData);
